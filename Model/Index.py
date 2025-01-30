@@ -9,7 +9,7 @@ config_path = os.path.join(base_path, "yolov4.cfg")
 coco_names_path = os.path.join(base_path, "coco.names")
 
 # Image file path
-image_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../Images/car.jpg"))
+image_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../Images/01Car.jpg"))
 
 # Check if all required files exist
 for path in [weights_path, config_path, coco_names_path, image_path]:
